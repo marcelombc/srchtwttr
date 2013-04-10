@@ -45,7 +45,11 @@ setTimeout(function () {
 
 ## Works on ##
 
-All browsers.
+* IE (6+)
+* Chrome (4+)
+* Safari (3+)
+* Firefox (3.6+)
+* Opera (9+)
 
 ## License ##
 
