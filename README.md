@@ -13,6 +13,7 @@ srchtwttr is a library that helps you search on twitter.
 
 * Clone the repo
 * Install bower (`npm install bower -g`)
+* Install uglify-js (`npm install uglify-js -g`)
 * Install deps with (`bower install`) and (`npm install`)
 
 ## Dependencies
@@ -38,7 +39,10 @@ setTimeout(function () {
 }, 1000);
 
 ```
-
+## Build ##
+```js
+uglifyjs lib/srchtwttr.js -o lib/srchtwttr.min.js
+```
 ## Tests
 
 `$ npm test`
